@@ -104,6 +104,9 @@ p {
     /* padding: 0 1rem;
     padding-bottom: 2rem; */
 }
+footer {
+    padding-bottom: 3rem;
+}
 
 /* FOOTER STYLES */
 #contact h2 {
@@ -129,10 +132,15 @@ footer hr {
 }
 
 footer nav {
-    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    padding: 2rem 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+footer nav ul {
+    display: none;
 }
 
 /* MEDIA QUERIES */
@@ -165,5 +173,22 @@ footer nav {
     }
     .project {
         width: 50%;
+    }
+    footer p {
+        padding: 1.5rem 7rem 2rem;
+    }
+    footer nav {
+        font-size: 0.9rem;
+        padding: 2rem 5%;
+    }
+    .mobile {
+        display: none;
+    }
+    footer nav ul {
+        display: flex;
+    }
+    footer nav ul li a {
+        display: block;
+        padding-left: 2rem;
     }
 }
