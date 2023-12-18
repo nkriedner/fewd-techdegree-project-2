@@ -90,9 +90,19 @@ p {
     padding: 3rem 2rem;
 }
 
-.project img {
-    padding: 0 1rem;
+.projects-container {
+    padding: 0 1.5rem;
+}
+
+.project {
+    padding: 0 0.5rem;
     padding-bottom: 2rem;
+}
+
+.project img {
+    padding-bottom: 2rem;
+    /* padding: 0 1rem;
+    padding-bottom: 2rem; */
 }
 
 /* FOOTER STYLES */
@@ -148,5 +158,12 @@ footer nav {
         width: 40%;
         order: 1;
         padding-right: 2rem;
+    }
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project {
+        width: 50%;
     }
 }
