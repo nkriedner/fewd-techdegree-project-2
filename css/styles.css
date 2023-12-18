@@ -28,6 +28,10 @@ h2 {
     text-transform: uppercase;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* HEADER STYLES */
 header {
     width: 100vw;
@@ -66,10 +70,24 @@ section {
 
 p {
     line-height: 1.5;
-    padding: 1rem 0.5rem 2rem;
+    padding: 1rem 1rem 2rem;
 }
 
-/* MAIN STYLES 1 - INTRO */
+/* MAIN STYLES */
 .intro img {
     max-width: 70%;
+}
+
+#portfolio {
+    background-color: white;
+}
+
+#portfolio h2 {
+    font-size: 1rem;
+    padding: 3rem 2rem;
+}
+
+.project img {
+    padding: 0 1rem;
+    padding-bottom: 2rem;
 }
