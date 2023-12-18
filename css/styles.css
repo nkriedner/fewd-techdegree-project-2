@@ -59,3 +59,17 @@ header nav ul li a {
     padding: 1rem 2rem;
     margin-bottom: 0.3rem;
 }
+
+section {
+    margin-bottom: 2rem;
+}
+
+p {
+    line-height: 1.5;
+    padding: 1rem 0.5rem 2rem;
+}
+
+/* MAIN STYLES 1 - INTRO */
+.intro img {
+    max-width: 70%;
+}
