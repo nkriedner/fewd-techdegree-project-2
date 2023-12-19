@@ -67,6 +67,7 @@ header nav ul li a {
     background-color: white;
     display: block;
     padding: 1rem 2rem;
+    border-radius: 20px;
     margin-bottom: 0.3rem;
 }
 
@@ -183,9 +184,11 @@ footer nav ul {
     body {
         font-size: 1.2em;
     }
-    a:hover,
-    address a:hover {
+    a:hover {
         transform: scale(1.1);
+        color: #428ac3;
+    }
+    address a:hover {
         color: green;
     }
     header nav ul {
@@ -263,13 +266,9 @@ footer nav ul {
     }
     header nav ul li a {
         padding: 1rem;
-        /* transition: all 0.5s; */
     }
     header nav ul li:last-child a {
         margin-right: -1rem;
-    }
-    header nav ul li a:hover {
-        /* transform: scale(1.1); */
     }
     #intro p {
         padding: 0 4rem;
