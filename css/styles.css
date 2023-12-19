@@ -6,6 +6,9 @@
 }
 
 /* GENERAL STYLES */
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(237, 227, 227);
     font-family: "Open Sans", sans-serif;
@@ -78,7 +81,7 @@ p {
 }
 
 /* MAIN STYLES */
-.intro img {
+#intro img {
     max-width: 70%;
 }
 
@@ -153,14 +156,14 @@ footer nav ul {
     header nav ul li a {
         background-color: inherit;
     }
-    .intro {
+    #intro {
         display: flex;
     }
-    .intro p {
+    #intro p {
         text-align: left;
         padding: 0 2rem;
     }
-    .intro img {
+    #intro img {
         width: 40%;
         order: 1;
         padding-right: 2rem;
@@ -197,6 +200,7 @@ footer nav ul {
         flex-direction: row;
         justify-content: space-between;
         padding: 2rem;
+        padding-right: 4rem;
     }
     header nav {
         width: auto;
@@ -205,8 +209,14 @@ footer nav ul {
     header nav ul li a {
         padding: 1rem;
     }
-    .intro p {
+    header nav ul li a:last-child {
+        padding-right: 0;
+    }
+    #intro p {
         padding: 0 4rem;
+    }
+    #intro img {
+        padding-right: 4rem;
     }
     #portfolio {
         margin: 0 2rem;
