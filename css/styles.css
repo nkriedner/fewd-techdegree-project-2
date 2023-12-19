@@ -279,3 +279,10 @@ footer nav ul {
         margin: 1rem auto;
     }
 }
+
+/* MEDIA QUERY FOR XXL DESKTOP SIZE */
+@media screen and (min-width: 1500px) {
+    html {
+        font-size: 1.3em;
+    }
+}
