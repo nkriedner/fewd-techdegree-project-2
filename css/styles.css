@@ -101,8 +101,6 @@ p {
 
 .project img {
     padding-bottom: 2rem;
-    /* padding: 0 1rem;
-    padding-bottom: 2rem; */
 }
 footer {
     padding-bottom: 3rem;
@@ -143,7 +141,7 @@ footer nav ul {
     display: none;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERY FOR TABLET SIZE */
 @media screen and (min-width: 768px) {
     body {
         font-size: 1.2em;
@@ -190,5 +188,41 @@ footer nav ul {
     footer nav ul li a {
         display: block;
         padding-left: 2rem;
+    }
+}
+
+/* MEDIA QUERY FOR DESKTOP SIZE */
+@media screen and (min-width: 1024px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    header nav {
+        width: auto;
+        margin-bottom: 0;
+    }
+    header nav ul li a {
+        padding: 1rem;
+    }
+    .intro p {
+        padding: 0 4rem;
+    }
+    #portfolio {
+        margin: 0 2rem;
+    }
+    .project {
+        width: 33.3333%;
+        font-size: 0.9rem;
+    }
+    .project img {
+        padding-bottom: 1.5rem;
+    }
+    .project p {
+        padding: 1rem 0.6rem 2rem;
+    }
+    footer p {
+        width: 80%;
+        margin: 1rem auto;
     }
 }
