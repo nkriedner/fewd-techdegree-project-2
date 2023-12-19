@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: rgb(237, 227, 227);
+    background-color: hsl(198, 100%, 92%);
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
@@ -87,6 +87,7 @@ p {
 /* MAIN STYLES */
 #intro img {
     max-width: 70%;
+    border-radius: 10px;
 }
 
 #portfolio {
@@ -208,7 +209,7 @@ footer nav ul {
     #intro img {
         width: 40%;
         order: 1;
-        padding-right: 2rem;
+        margin-right: 2rem;
     }
     .projects-container {
         display: flex;
@@ -272,9 +273,10 @@ footer nav ul {
     }
     #intro p {
         padding: 0 4rem;
+        padding-right: 6rem;
     }
     #intro img {
-        padding-right: 4rem;
+        margin-right: 4rem;
     }
     #portfolio {
         margin: 0 2rem;
