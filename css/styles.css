@@ -100,7 +100,6 @@ p {
 }
 
 .projects-container {
-    /* padding: 0 1.5rem; */
     padding: 0 1rem;
 }
 
@@ -109,11 +108,10 @@ p {
 }
 
 .project img {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 #skills {
-    background-color: rgb(39, 34, 34);
     background-color: cornflowerblue;
     color: whitesmoke;
     padding: 2rem 1rem 3rem;
@@ -209,23 +207,6 @@ footer nav ul {
     .project {
         width: 49.5%;
     }
-    footer p {
-        padding: 1.5rem 7rem 2rem;
-    }
-    footer nav {
-        font-size: 0.9rem;
-        padding: 2rem 5%;
-    }
-    .mobile {
-        display: none;
-    }
-    footer nav ul {
-        display: flex;
-    }
-    footer nav ul li a {
-        display: block;
-        padding-left: 2rem;
-    }
     #skills {
         padding: 3rem 5rem 4rem;
     }
@@ -235,6 +216,19 @@ footer nav ul {
         gap: 1rem;
         justify-content: center;
         align-items: center;
+    }
+    footer p {
+        padding: 1.5rem 7rem 2rem;
+    }
+    footer nav {
+        padding: 2rem 5%;
+    }
+    .mobile {
+        display: none;
+    }
+    footer nav ul {
+        display: flex;
+        gap: 2rem;
     }
 }
 
@@ -258,7 +252,7 @@ footer nav ul {
     }
     #intro p {
         padding: 0 4rem;
-        padding-right: 6rem;
+        margin-right: 2rem;
     }
     #intro img {
         margin-right: 4rem;
@@ -267,7 +261,6 @@ footer nav ul {
         margin: 0 2rem;
     }
     .project {
-        /* width: 32.66%; */
         width: calc(98% / 3);
         font-size: 0.9rem;
     }
@@ -277,11 +270,11 @@ footer nav ul {
     .project p {
         padding: 1rem 0.6rem 2rem;
     }
+    #skills {
+        margin: 0 2rem;
+    }
     footer p {
         width: 80%;
         margin: 1rem auto;
-    }
-    #skills {
-        margin: 0 2rem;
     }
 }
