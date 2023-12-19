@@ -208,6 +208,12 @@ footer nav ul {
     .project {
         width: 50%;
     }
+    .project:nth-child(odd) img {
+        padding-right: 0.5rem;
+    }
+    .project:nth-child(even) img {
+        padding-left: 0.5rem;
+    }
     footer p {
         padding: 1.5rem 7rem 2rem;
     }
@@ -225,11 +231,15 @@ footer nav ul {
         display: block;
         padding-left: 2rem;
     }
+    #skills {
+        padding: 3rem 5rem 4rem;
+    }
     #skills ul {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
+        align-items: center;
     }
 }
 
