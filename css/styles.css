@@ -214,15 +214,10 @@ footer nav ul {
     .projects-container {
         display: flex;
         flex-wrap: wrap;
+        gap: 1%;
     }
     .project {
-        width: 50%;
-    }
-    .project:nth-child(odd) img {
-        padding-right: 0.5rem;
-    }
-    .project:nth-child(even) img {
-        padding-left: 0.5rem;
+        width: 49.5%;
     }
     footer p {
         padding: 1.5rem 7rem 2rem;
@@ -282,7 +277,8 @@ footer nav ul {
         margin: 0 2rem;
     }
     .project {
-        width: 33.3333%;
+        /* width: 32.66%; */
+        width: calc(98% / 3);
         font-size: 0.9rem;
     }
     .project img {
