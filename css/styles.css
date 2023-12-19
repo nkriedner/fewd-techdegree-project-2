@@ -239,7 +239,7 @@ footer nav ul {
         flex-direction: row;
         justify-content: space-between;
         padding: 2rem;
-        padding-right: 4rem;
+        padding-right: 3rem;
     }
     header nav {
         width: auto;
@@ -247,9 +247,6 @@ footer nav ul {
     }
     header nav ul li a {
         padding: 1rem;
-    }
-    header nav ul li:last-child a {
-        margin-right: -1rem;
     }
     #intro p {
         padding: 0 4rem;
