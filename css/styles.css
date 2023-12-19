@@ -8,7 +8,9 @@
 /* GENERAL STYLES */
 html {
     scroll-behavior: smooth;
+    font-size: 0.9em;
 }
+
 body {
     background-color: rgb(237, 227, 227);
     font-family: "Open Sans", sans-serif;
@@ -95,11 +97,12 @@ p {
 }
 
 .projects-container {
-    padding: 0 1.5rem;
+    /* padding: 0 1.5rem; */
+    padding: 0 1rem;
 }
 
 .project {
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
     padding-bottom: 2rem;
 }
 
@@ -111,7 +114,7 @@ p {
     background-color: rgb(39, 34, 34);
     background-color: cornflowerblue;
     color: whitesmoke;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 3rem;
 }
 
 #skills ul {
@@ -136,7 +139,7 @@ p {
 }
 
 footer {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 /* FOOTER STYLES */
