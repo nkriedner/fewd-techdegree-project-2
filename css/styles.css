@@ -87,6 +87,7 @@ p {
 
 #portfolio {
     background-color: white;
+    margin-bottom: 0;
 }
 
 #portfolio h2 {
@@ -105,6 +106,35 @@ p {
 .project img {
     padding-bottom: 2rem;
 }
+
+#skills {
+    background-color: rgb(39, 34, 34);
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    padding: 2rem 1rem;
+}
+
+#skills ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills li {
+    /* line-height: 2.5; */
+    background-color: darkblue;
+    /* display: block; */
+    /* width: 50%; */
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    /* font-size: 1.1em; */
+    /* background-color: darkblue;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 10px; */
+}
+
 footer {
     padding-bottom: 3rem;
 }
@@ -192,6 +222,12 @@ footer nav ul {
         display: block;
         padding-left: 2rem;
     }
+    #skills ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
 }
 
 /* MEDIA QUERY FOR DESKTOP SIZE */
@@ -234,5 +270,8 @@ footer nav ul {
     footer p {
         width: 80%;
         margin: 1rem auto;
+    }
+    #skills {
+        margin: 0 2rem;
     }
 }
