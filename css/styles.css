@@ -25,6 +25,7 @@ a {
     text-decoration: none;
     color: inherit;
     font-weight: 700;
+    transition: all 0.5s;
 }
 
 header a,
@@ -182,6 +183,11 @@ footer nav ul {
     body {
         font-size: 1.2em;
     }
+    a:hover,
+    address a:hover {
+        transform: scale(1.1);
+        color: green;
+    }
     header nav ul {
         flex-direction: row;
         justify-content: center;
@@ -257,9 +263,13 @@ footer nav ul {
     }
     header nav ul li a {
         padding: 1rem;
+        /* transition: all 0.5s; */
     }
-    header nav ul li a:last-child {
-        padding-right: 0;
+    header nav ul li:last-child a {
+        margin-right: -1rem;
+    }
+    header nav ul li a:hover {
+        /* transform: scale(1.1); */
     }
     #intro p {
         padding: 0 4rem;
